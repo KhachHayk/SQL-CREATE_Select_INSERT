@@ -29,18 +29,32 @@ WHERE id = 22;
 UPDATE album
 SET year = '2020.01.01'
 WHERE id = 32;	 
-	 
+
+DELETE FROM track;
+
 INSERT INTO track
-VALUES(13, '12', 'So What - Mono Version', 9.07),
-	  (23, '12', 'Freddie Freeloader - Mono Version', 8.18),
-	  (33, '22', 'Rondo in E-Flat Major', 4.32),
-	  (43, '22', 'Keyboard Sonata in G major', 3.15),
-	  (53, '32', 'The Greatest', 4.22),
-	  (63, '32', 'Chicago', 3.52);
+VALUES(13, '12', 'So What - Mono Version', 547),
+	  (23, '12', 'Freddie Freeloader - Mono Version', 498),
+	  (33, '22', 'Rondo in E-Flat Major', 172),
+	  (43, '22', 'Keyboard Sonata in G major', 210),
+	  (53, '32', 'The Greatest', 162),
+	  (63, '32', 'Chicago', 232),
+	  (73, '12', 'my life', 307),
+	  (83, '12', 'my own', 221),
+	  (93, '22', 'own my', 220),
+	  (103, '32', 'my', 298),
+	  (113, '22', 'oh my god', 300),
+	  (123, '12', 'myself', 308),
+	  (133, '22', 'by myself', 329),
+	  (143, '12', 'bemy self', 365),
+	  (153, '32', 'myself by', 400),
+	  (163, '22', 'by myself by', 456),
+	  (173, '12', 'beemy', 529),
+	  (183, '22', 'premyne', 569);
 	 
 
 INSERT INTO track
-VALUES(73, '12', 'my life', 5.07);	 
+VALUES	 
 	 
 
 INSERT INTO collection

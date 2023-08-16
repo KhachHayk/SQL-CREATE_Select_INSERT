@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS Ganres_artists (
 CREATE TABLE IF NOT EXISTS Album (
 	id SERIAL PRIMARY KEY,
 	name VARCHAR(40) NOT NULL,
-	year date(10)
+	year date
 );
 
 CREATE TABLE IF NOT EXISTS Artists_album (
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS Track (
 CREATE TABLE IF NOT EXISTS Collection (
 	id SERIAL PRIMARY KEY,
 	name VARCHAR(40) NOT NULL,
-	year date(10)
+	year date
 );
 
 CREATE TABLE IF NOT EXISTS TracksCollections (
